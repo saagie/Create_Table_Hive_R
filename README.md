@@ -1,5 +1,6 @@
 Le script R permet de créer automatiquement les tables SQL Brut à partir d'un répertoire HDFS. 
 Le script parcourt l'ensemble des sous-dossiers du répertoire, pour créer les tables brutes Hive associées au fichier .gz de chaque sous-dossier.
+Le nom des table est donné par le nom du sous répertoire.
 
 Pour lancer le script :
 - il faut uploader "Create_Table_Hive.tar" directement sur la plate-forme
